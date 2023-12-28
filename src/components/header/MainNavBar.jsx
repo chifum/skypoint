@@ -1,5 +1,7 @@
 
 import React, { useState } from 'react';
+import { Outlet, NavLink } from "react-router-dom";
+
 import logo from "../../assets/img/logo.png"
 
 const Navbar = () => {
@@ -22,19 +24,19 @@ const Navbar = () => {
           }
         >
           <li>
-            <a className="text-[#007559] no-underline" href="index">Home</a>
+            <NavLink className="text-[#007559] no-underline" to="/">Home</NavLink>
           </li>
           <li>
-            <a className="text-[#007559] no-underline" href="organization">Our Organization</a>
+            <NavLink className="text-[#007559] no-underline" to="organisation">Our Organization</NavLink>
           </li>
           <li>
-            <a className="text-[#007559] no-underline" href="service">Our Service</a>
+            <NavLink className="text-[#007559] no-underline" to="service">Our Service</NavLink>
           </li>
           <li>
-            <a className="text-[#007559] no-underline" href="contact">Contact Us</a>
+            <NavLink className="text-[#007559] no-underline" to="contact">Contact Us</NavLink>
           </li>
           <li>
-            <a className="text-[#007559] no-underline" href="faq">FAQ</a>
+            <NavLink className="text-[#007559] no-underline" to="faq">FAQ</NavLink>
           </li>
         </ul>
         <button
@@ -66,6 +68,9 @@ const Navbar = () => {
           </svg>
         </button>
       </nav>
+      <main>
+        <Outlet />
+      </main>
     </div>
     </div>);
 };
