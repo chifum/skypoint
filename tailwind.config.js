@@ -8,11 +8,15 @@ module.exports = {
       lg: '976px',
       xl: '1440px'
     },
+    colors: {
+      // Using legacy `rgba`
+      change: 'rgba(var(--color-primary), <alpha-value>)',
+    },
     extend: {
-      // backgroundImage: {
-      //   'logo': "url('../../assets/img/logo.png')",
+      backgroundImage: {
+        'logo': "url('../../assets/img/logo.png')",
 
-      // },
+      },
     },
   },
   plugins: [],

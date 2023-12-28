@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    :root {
+      --color-primary: rgba(0, 117, 89, 1);
+      ;
+      /* ... */
+    }
+  }

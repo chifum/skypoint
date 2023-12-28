@@ -10,9 +10,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bgColor">
-      <nav className="flex justify-between bg-primar items-center text-white py-4 px-4 md:px-8">
-        <a href="/" className="text-xl font-bold"><img src={logo} alt="" /></a>
+    <div className="bg-[#edeeef] max-w-full">
+    <div className="container">
+      <nav className="flex justify-between items-center text-white py-2 px-2 md:px-8">
+        <a href="/" className="text-xl font-bold"><img className="w-20 h-10" src={logo} alt="" /></a>
         <ul
           className={
             isOpen
@@ -21,19 +22,19 @@ const Navbar = () => {
           }
         >
           <li>
-            <a className="" href="/">Home</a>
+            <a className="text-[#007559] no-underline" href="index">Home</a>
           </li>
           <li>
-            <a className='' href="/">Our Organization</a>
+            <a className="text-[#007559] no-underline" href="organization">Our Organization</a>
           </li>
           <li>
-            <a href="/">Our Service</a>
+            <a className="text-[#007559] no-underline" href="service">Our Service</a>
           </li>
           <li>
-            <a href="/">Contact Us</a>
+            <a className="text-[#007559] no-underline" href="contact">Contact Us</a>
           </li>
           <li>
-            <a href="/">FAQ</a>
+            <a className="text-[#007559] no-underline" href="faq">FAQ</a>
           </li>
         </ul>
         <button
@@ -65,6 +66,7 @@ const Navbar = () => {
           </svg>
         </button>
       </nav>
+    </div>
     </div>);
 };
 

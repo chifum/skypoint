@@ -12,12 +12,28 @@
     rgba(0, 117, 89, 0.503779) 69.62%,
     rgba(0, 117, 89, 0) 125.13%
   );
+
   --primary-navTextColor: rgba(255, 255, 255, 1);
 }
-.bgBodyTertiary{
-  background-color: var(--primary-navBackgroundColor) !important;
-  color: red;
-}
+
 .bgColor{
   background: var(--primary-navBackgroundColor);
+}
+
+:root {
+  --appointmentBg: rgba(0, 117, 89, 1);
+  --mainBg: rgba(237, 238, 239, 1);
+
+}
+
+.appointBg{
+  background: var(--appointmentBg);
+}
+
+.navTextColor{
+  color: var(--primary-navBackgroundColor);
+}
+
+.coverBg{
+  background: var(--mainBg);
 }

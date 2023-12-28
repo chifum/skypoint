@@ -2,7 +2,7 @@
 // React-Router-Dom Installed
 // React-Icon Installed
 
-// import "./assets/Style.css";
+import "./assets/Style.css";
 import "./index.css"
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
