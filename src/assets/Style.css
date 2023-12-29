@@ -37,3 +37,10 @@
 .coverBg{
   background: var(--mainBg);
 }
+
+.backgroundImage{
+  background: url('../assets/img/image5.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 717px;
+}

@@ -12,12 +12,7 @@ module.exports = {
       // Using legacy `rgba`
       change: 'rgba(var(--color-primary), <alpha-value>)',
     },
-    extend: {
-      backgroundImage: {
-        'logo': "url('../../assets/img/logo.png')",
-
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
