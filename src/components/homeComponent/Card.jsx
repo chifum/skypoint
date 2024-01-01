@@ -1,6 +1,7 @@
 import React from "react";
 
 const Card = () => {
+  
   return (
     <div className="bg-[#edeeef] max-w-full">
       <h6 className="text-center p-2 m-2 weLoveNdis">We Love NDIS</h6>
@@ -10,6 +11,7 @@ const Card = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="backgroundImage6 object-contain w-full h-[300px] text-white text-center flex flex-row flex-wrap justify-center items-center">
               <p className="">IN HOME & DAILY ACTIVITY SUPPORT</p>
+              
             </div>
             <div className="backgroundImage7 object-cover w-full h-[300px] text-white text-center flex flex-row flex-wrap justify-center items-center">
               <p className="">SUPPORTED INDEPENDENT LIVING</p>
