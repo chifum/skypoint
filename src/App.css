@@ -8,8 +8,21 @@
       rgba(0, 117, 89, 0) 125.13%
     );
     --primary-navTextColor: rgba(255, 255, 255, 1);
-  }
+    --primaryButton: rgba(123, 240, 0, 1);
+    --weLoveNdisTextColor: rgba(0, 117, 118, 0.698);
+}
+    
   .bgColor{
     background: var(--primary-navBackgroundColor);
   }
+  .textColor{
+    color: var(--primary-navTextColor);
+  }
+  .outlineButtonColor{
+    outline-color: var(--primaryButton);
+  }
+  .weLoveNdis{
+    color: var(--weLoveNdisTextColor);
+  }
+  
   
