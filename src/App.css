@@ -1,28 +1,58 @@
 :root {
-    --primary-navBackgroundColor: linear-gradient(
-      90.46deg,
-      #007559 28.08%,
-      rgba(0, 117, 89, 0.613411) 52.98%,
-      rgba(0, 117, 89, 0.645091) 57.63%,
-      rgba(0, 117, 89, 0.503779) 69.62%,
-      rgba(0, 117, 89, 0) 125.13%
-    );
-    --primary-navTextColor: rgba(255, 255, 255, 1);
-    --primaryButton: rgba(123, 240, 0, 1);
-    --weLoveNdisTextColor: rgba(0, 117, 118, 0.698);
+  --primary-navBackgroundColor: linear-gradient(
+    90.46deg,
+    #007559 28.08%,
+    rgba(0, 117, 89, 0.613411) 52.98%,
+    rgba(0, 117, 89, 0.645091) 57.63%,
+    rgba(0, 117, 89, 0.503779) 69.62%,
+    rgba(0, 117, 89, 0) 125.13%
+  );
+  --primary-navTextColor: rgba(255, 255, 255, 1);
+  --primaryButton: rgba(123, 240, 0, 1);
+  --weLoveNdisTextColor: rgba(0, 117, 118, 0.698);
+
+  --Footer: linear-gradient(
+    278.34deg,
+    #76b296 -130.52%,
+    rgba(225, 249, 238, 0.915793) -82.49%,
+    rgba(104, 157, 132, 0.939041) 13.37%,
+    #5d8c76 24.82%,
+    rgba(111, 139, 126, 0.880341) 54.85%,
+    rgba(138, 138, 138, 0.865976) 139.51%,
+    #fdfdfd 139.54%,
+    rgba(0, 0, 0, 0.48995) 139.54%,
+    rgba(118, 164, 178, 0.162832) 139.54%,
+    rgba(118, 178, 150, 0.342501) 139.54%,
+    #007559 139.54%
+  );
+  --footerVerticalBg: rgba(134, 203, 172, 1);
+  --bookNow: linear-gradient(
+    96.46deg,
+    #007559 -2.91%,
+    #00221a 106.37%,
+    #000000 142.35%,
+    rgba(0, 117, 89, 0) 186.21%
+  );
 }
-    
-  .bgColor{
-    background: var(--primary-navBackgroundColor);
-  }
-  .textColor{
-    color: var(--primary-navTextColor);
-  }
-  .outlineButtonColor{
-    outline-color: var(--primaryButton);
-  }
-  .weLoveNdis{
-    color: var(--weLoveNdisTextColor);
-  }
-  
-  
+
+.bgColor {
+  background: var(--primary-navBackgroundColor);
+}
+.textColor {
+  color: var(--primary-navTextColor);
+}
+.outlineButtonColor {
+  outline-color: var(--primaryButton);
+}
+.weLoveNdis {
+  color: var(--weLoveNdisTextColor);
+}
+.Footer {
+  background: var(--Footer);
+}
+.footerVerticalBg {
+  color: var(--footerVerticalBg);
+}
+.bookNowBg{
+  background: var(--bookNow);
+}
