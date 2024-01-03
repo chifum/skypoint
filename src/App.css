@@ -36,7 +36,8 @@
   --card2Bg: rgba(118, 178, 150, 1);
   --OvalBg: rgba(255, 255, 255, 1);
   --OvalBgText: rgba(0, 117, 89, 1);
-
+  --iconColor: rgba(115, 115, 115, 1);
+  --iconColor2: linear-gradient(103.46deg, #007559 30.87%, rgba(228, 229, 229, 0.479004) 128.75%, rgba(0, 117, 89, 0) 207.61%);
 
 }
 
@@ -70,4 +71,9 @@
 .OvalBgText{
   color: var(--OvalBgText);
 }
-
+.iconColor{
+  color: var(--iconColor);
+}
+.iconColor2{
+  background: var(--iconColor2);
+}

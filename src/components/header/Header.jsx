@@ -1,7 +1,8 @@
 import React from "react";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { NavLink, Outlet } from "react-router-dom";
+import { IoMdHome } from "react-icons/io";
 
-const Header = ({ p, h3, className }) => {
+const Header = ({ p, h3, className, to, to2, name }) => {
   return (
     <div>
       <div className={className}>
@@ -13,12 +14,26 @@ const Header = ({ p, h3, className }) => {
             <h3 className="font-semibold textColor font-sans md:text-6xl text-center text-3xl">
               {h3}
             </h3>
-            <button className="outline outline-offset-2 outlineButtonColor textColor w-28 text-center rounded-lg m-auto flex flex-row items-baseline justify-evenly mt-5">
-              Refer to Us <FaArrowCircleRight />
-            </button>
+            <div className="flex justify-center items-center">
+              <NavLink
+                to={to}
+                className="iconColor OvalBg w-[113px] h-[30px] text-center rounded-lg flex flex-row  items-center justify-evenly mt-5 no-underline"
+              >
+              <IoMdHome /> Home 
+              </NavLink>
+              <NavLink
+                to2={to2}
+                className="iconColor2 textColor w-[113px] h-[30px] text-center rounded-lg flex flex-row  items-center justify-evenly mt-5 no-underline"
+              >
+                {name} 
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 };
