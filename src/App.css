@@ -33,6 +33,11 @@
     #000000 142.35%,
     rgba(0, 117, 89, 0) 186.21%
   );
+  --card2Bg: rgba(118, 178, 150, 1);
+  --OvalBg: rgba(255, 255, 255, 1);
+  --OvalBgText: rgba(0, 117, 89, 1);
+
+
 }
 
 .bgColor {
@@ -56,3 +61,13 @@
 .bookNowBg{
   background: var(--bookNow);
 }
+.card2Bg{
+  background: var(--card2Bg);
+}
+.OvalBg{
+  background: var(--OvalBg);
+}
+.OvalBgText{
+  color: var(--OvalBgText);
+}
+

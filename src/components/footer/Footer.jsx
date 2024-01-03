@@ -18,7 +18,7 @@ const Footer = () => {
   return (
     <div className="Footer">
       <div className="container flex flex-wrap flex-col md:flex-row textColor">
-        <div className="grow shrink basis-1/3 w-full overflow-hidden shadow-md">
+        <div className="grow shrink basis-1/3 w-full ">
           <div className="flex items-baseline">
             <p className="text-3xl footerVerticalBg">|</p>
             <h6 className="ml-2">Contact Details</h6>
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div className="flex items-baseline">
               <FaEnvelope />
-              <p className="m-3">info@skypointsupportservice.com.au</p>
+              <p className="ml-3 text-sm overflow-auto">info@skypointsupportservice.com.au</p>
             </div>
             <div className="flex items-baseline">
               <HiOutlineBuildingOffice2 />
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="grow shrink basis-1/3 overflow-hidden shadow-md">
+        <div className="grow shrink basis-1/3 overflow-hidden">
           <div className="flex items-center">
             <p className="text-3xl footerVerticalBg">|</p>
             <h6 className="ml-2">We Love NDIS</h6>
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="grow shrink basis-1/3 w-full overflow-hidden shadow-md">
+        <div className="grow shrink basis-1/3 w-full overflow-hidden">
           <div className="flex items-center">
             <p className="text-3xl footerVerticalBg">|</p>
             <h6 className="ml-2">Appointments</h6>
@@ -76,32 +76,32 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <diV className="flex items-center mt-2">
+            <div className="flex items-center mt-2">
               <p className="text-3xl footerVerticalBg">|</p>
               <h6 className="ml-2">Share On</h6>
-            </diV>
+            </div>
             <div className="p-3">
               <div className="flex">
-              <diV className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50">
+              <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50">
                 <NavLink className="no-underline text-white" to="/">
                   <FaFacebook size={20} />
                 </NavLink>
-              </diV>
-              <diV className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
+              </div>
+              <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
                 <NavLink className="no-underline text-white" to="/">
                   <FaTwitter size={20} />
                 </NavLink>
-              </diV>
-              <diV className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
+              </div>
+              <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
                 <NavLink className="no-underline text-white" to="/">
                   <IoLogoWhatsapp size={20} />
                 </NavLink>
-              </diV>
-              <diV className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
+              </div>
+              <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
                 <NavLink className="no-underline text-white" to="/">
                   <FaInstagramSquare size={20} />
                 </NavLink>
-              </diV>
+              </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
 import Card from "../components/homeComponent/Card";
+// import Card2 from "../components/homeComponent/Card2";
 import Footer from "../components/footer/Footer";
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
       </div>
       <Card />
+      
       <Footer />
     </div>
   );
