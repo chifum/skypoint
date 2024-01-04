@@ -38,6 +38,11 @@
   --OvalBgText: rgba(0, 117, 89, 1);
   --iconColor: rgba(115, 115, 115, 1);
   --iconColor2: linear-gradient(103.46deg, #007559 30.87%, rgba(228, 229, 229, 0.479004) 128.75%, rgba(0, 117, 89, 0) 207.61%);
+  --faqContainerbg: rgba(237, 238, 239, 1);
+  --faqText: rgba(118, 178, 150, 1);
+  --whatIsNdis1: rgba(0, 117, 89, 1);
+  --whatIsNdis2: rgba(118, 178, 150, 1);
+  --ndisBlackText: rgba(18, 18, 18, 1);
 
 }
 
@@ -76,4 +81,19 @@
 }
 .iconColor2{
   background: var(--iconColor2);
+}
+.faqContainerbg{
+  background: var(--faqContainerbg);
+}
+.faqText{
+  color: var(--faqText);
+}
+.whatIsNdis1{
+  color: var(--whatIsNdis1);
+}
+.whatIsNdis2{
+  color: var(--whatIsNdis2);
+}
+.ndisBlackText{
+  color: var(--ndisBlackText);
 }

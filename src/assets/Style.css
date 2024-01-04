@@ -16,88 +16,87 @@
   --primary-navTextColor: rgba(255, 255, 255, 1);
 }
 
-.bgColor{
+.bgColor {
   background: var(--primary-navBackgroundColor);
 }
 
 :root {
   --appointmentBg: rgba(0, 117, 89, 1);
   --mainBg: rgba(237, 238, 239, 1);
-
 }
 
-.appointBg{
+.appointBg {
   background: var(--appointmentBg);
 }
 
-.navTextColor{
+.navTextColor {
   color: var(--primary-navBackgroundColor);
 }
 
-.coverBg{
+.coverBg {
   background: var(--mainBg);
 }
 
-.backgroundImage{
-  background: url('../assets/img/image5.png') no-repeat;
+.backgroundImage {
+  background: url("../assets/img/image5.png") no-repeat;
   background-size: cover;
   background-position: center;
   height: 717px;
 }
-.backgroundImage6{
-  background: url('../assets/img/image6.png') no-repeat;
+.backgroundImage6 {
+  background: url("../assets/img/image6.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.backgroundImage7{
-  background: url('../assets/img/image7.png') no-repeat;
+.backgroundImage7 {
+  background: url("../assets/img/image7.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.backgroundImage8{
-  background: url('../assets/img/image8.png') no-repeat;
+.backgroundImage8 {
+  background: url("../assets/img/image8.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.backgroundImage9{
-  background: url('../assets/img/image9.png') no-repeat;
+.backgroundImage9 {
+  background: url("../assets/img/image9.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.backgroundImage11{
-  background: url('../assets/img/image11.png') no-repeat;
+.backgroundImage11 {
+  background: url("../assets/img/image11.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.backgroundImage12{
-  background: url('../assets/img/image12.png') no-repeat;
+.backgroundImage12 {
+  background: url("../assets/img/image12.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.backgroundRectangle4{
-  background: url('../assets/img/Rectangle4.png') no-repeat;
+.backgroundRectangle4 {
+  background: url("../assets/img/Rectangle4.png") no-repeat;
   background-size: cover;
   background-position: center center;
   height: 100vh;
   width: 100%;
 }
-.backgroundHeaderImage{
-  background: url('../assets/img/organisationImage.png') no-repeat;
+.backgroundHeaderImage {
+  background: url("../assets/img/organisationImage.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.aboutUs{
-  background: url('../assets/img/aboutUs.png') no-repeat;
+.aboutUs {
+  background: url("../assets/img/aboutUs.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.contactUs{
-  background: url('../assets/img/aboutUs.png') no-repeat;
+.contactUs {
+  background: url("../assets/img/aboutUs.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-.faq{
-  background: url('../assets/img/faq.png') no-repeat;
+.faq {
+  background: url("../assets/img/faq.png") no-repeat;
   background-size: cover;
   background-position: center;
 }

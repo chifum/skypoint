@@ -6,14 +6,12 @@ const Card2 = () => {
     <div className="max-w-full mt-5 flex justify-between flex-wrap flex-col md:flex-row">
       <div className="bg-[#edeeef] grow shrink flex justify-center md:justify-end md:m-0 border-1">
         <div className="border-1 w-full grow-0 shrink-0 flex justify-end">
-        yes
+          yes
         </div>
       </div>
       <br />
       <div className="card2Bg grow shrink flex justify-center md:justify-start border-1 md:m-0">
-        <div className="border-1 w-full grow-0 shrink-0 h-2/4">
-        yes
-        </div>
+        <div className="border-1 w-full grow-0 shrink-0 h-2/4">yes</div>
       </div>
     </div>
   );

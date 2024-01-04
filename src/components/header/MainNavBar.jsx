@@ -1,8 +1,7 @@
-
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { Outlet, NavLink } from "react-router-dom";
 
-import logo from "../../assets/img/logo.png"
+import logo from "../../assets/img/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State for mobile menu toggle
@@ -15,7 +14,9 @@ const Navbar = () => {
     <div className="bg-[#edeeef] max-w-full">
       <div className="container">
         <nav className="flex justify-between items-center text-white py-2 px-2 md:px-8">
-          <a href="/" className="text-xl font-bold"><img className="w-20 h-10" src={logo} alt="" /></a>
+          <a href="/" className="text-xl font-bold">
+            <img className="w-20 h-10" src={logo} alt="" />
+          </a>
           <ul
             className={
               isOpen
@@ -24,19 +25,32 @@ const Navbar = () => {
             }
           >
             <li>
-              <NavLink className="text-[#007559] no-underline" to="/">Home</NavLink>
+              <NavLink className="text-[#007559] no-underline" to="/">
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#007559] no-underline" to="organisation">Our Organization</NavLink>
+              <NavLink
+                className="text-[#007559] no-underline"
+                to="organisation"
+              >
+                Our Organization
+              </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#007559] no-underline" to="service">Our Service</NavLink>
+              <NavLink className="text-[#007559] no-underline" to="service">
+                Our Service
+              </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#007559] no-underline" to="contact">Contact Us</NavLink>
+              <NavLink className="text-[#007559] no-underline" to="contact">
+                Contact Us
+              </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#007559] no-underline" to="faq">FAQ</NavLink>
+              <NavLink className="text-[#007559] no-underline" to="faq">
+                FAQ
+              </NavLink>
             </li>
           </ul>
           <button
@@ -72,7 +86,8 @@ const Navbar = () => {
       <main>
         <Outlet />
       </main>
-    </div>);
+    </div>
+  );
 };
 
 export default Navbar;

@@ -6,7 +6,7 @@ import {
   FaRegCalendarAlt,
   FaFacebook,
   FaTwitter,
-  FaInstagramSquare
+  FaInstagramSquare,
 } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
@@ -30,7 +30,9 @@ const Footer = () => {
             </div>
             <div className="flex items-baseline">
               <FaEnvelope />
-              <p className="ml-3 text-sm overflow-auto">info@skypointsupportservice.com.au</p>
+              <p className="ml-3 text-sm overflow-auto">
+                info@skypointsupportservice.com.au
+              </p>
             </div>
             <div className="flex items-baseline">
               <HiOutlineBuildingOffice2 />
@@ -82,26 +84,26 @@ const Footer = () => {
             </div>
             <div className="p-3">
               <div className="flex">
-              <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50">
-                <NavLink className="no-underline text-white" to="/">
-                  <FaFacebook size={20} />
-                </NavLink>
-              </div>
-              <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
-                <NavLink className="no-underline text-white" to="/">
-                  <FaTwitter size={20} />
-                </NavLink>
-              </div>
-              <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
-                <NavLink className="no-underline text-white" to="/">
-                  <IoLogoWhatsapp size={20} />
-                </NavLink>
-              </div>
-              <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
-                <NavLink className="no-underline text-white" to="/">
-                  <FaInstagramSquare size={20} />
-                </NavLink>
-              </div>
+                <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50">
+                  <NavLink className="no-underline text-white" to="/">
+                    <FaFacebook size={20} />
+                  </NavLink>
+                </div>
+                <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
+                  <NavLink className="no-underline text-white" to="/">
+                    <FaTwitter size={20} />
+                  </NavLink>
+                </div>
+                <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
+                  <NavLink className="no-underline text-white" to="/">
+                    <IoLogoWhatsapp size={20} />
+                  </NavLink>
+                </div>
+                <div className=" border w-[40px] h-[40px] rounded-full flex justify-center items-center opacity-50 ml-3">
+                  <NavLink className="no-underline text-white" to="/">
+                    <FaInstagramSquare size={20} />
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>

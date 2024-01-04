@@ -23,7 +23,7 @@ const Home = () => {
         </div>
       </div>
       <Card />
-      
+
       <Footer />
     </div>
   );
