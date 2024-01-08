@@ -37,13 +37,18 @@
   --OvalBg: rgba(255, 255, 255, 1);
   --OvalBgText: rgba(0, 117, 89, 1);
   --iconColor: rgba(115, 115, 115, 1);
-  --iconColor2: linear-gradient(103.46deg, #007559 30.87%, rgba(228, 229, 229, 0.479004) 128.75%, rgba(0, 117, 89, 0) 207.61%);
+  --iconColor2: linear-gradient(
+    103.46deg,
+    #007559 30.87%,
+    rgba(228, 229, 229, 0.479004) 128.75%,
+    rgba(0, 117, 89, 0) 207.61%
+  );
   --faqContainerbg: rgba(237, 238, 239, 1);
   --faqText: rgba(118, 178, 150, 1);
   --whatIsNdis1: rgba(0, 117, 89, 1);
   --whatIsNdis2: rgba(118, 178, 150, 1);
   --ndisBlackText: rgba(18, 18, 18, 1);
-
+  --timeLineBg: rgba(134, 203, 171, 1);
 }
 
 .bgColor {
@@ -64,36 +69,88 @@
 .footerVerticalBg {
   color: var(--footerVerticalBg);
 }
-.bookNowBg{
+.bookNowBg {
   background: var(--bookNow);
 }
-.card2Bg{
+.card2Bg {
   background: var(--card2Bg);
 }
-.OvalBg{
+.OvalBg {
   background: var(--OvalBg);
 }
-.OvalBgText{
+.OvalBgText {
   color: var(--OvalBgText);
 }
-.iconColor{
+.iconColor {
   color: var(--iconColor);
 }
-.iconColor2{
+.iconColor2 {
   background: var(--iconColor2);
 }
-.faqContainerbg{
+.faqContainerbg {
   background: var(--faqContainerbg);
 }
-.faqText{
+.faqText {
   color: var(--faqText);
 }
-.whatIsNdis1{
+.whatIsNdis1 {
   color: var(--whatIsNdis1);
 }
-.whatIsNdis2{
+.whatIsNdis2 {
   color: var(--whatIsNdis2);
 }
-.ndisBlackText{
+.ndisBlackText {
   color: var(--ndisBlackText);
+}
+.timeLineBg {
+  background: var(--timeLineBg);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary {
+  background: blue;
+  color: white;
+}
+
+details[open] summary::after {
+  content: "-";
+}
+
+details[open] summary ~ * {
+  animation: slideDown 0.3s ease-in-out;
+}
+
+details[open] summary p {
+  opacity: 0;
+  animation-name: showContent;
+  animation-duration: 0.6s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  margin: 0;
+}
+
+@keyframes showContent {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    height: auto;
+  }
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: auto;
+  }
 }

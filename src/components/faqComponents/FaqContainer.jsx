@@ -1,6 +1,7 @@
 import React from "react";
 import Ndis from "../faqComponents/Ndis";
 import VerticalTimelineContainer from "./VerticalTimelineContainer"
+import FrequentAsk from "./FrequentAsk"
 
 const FaqContainer = () => {
   return (
@@ -8,6 +9,7 @@ const FaqContainer = () => {
       <div className="container">
         <Ndis />
         <VerticalTimelineContainer />
+        <FrequentAsk />
       </div>
     </div>
   );
