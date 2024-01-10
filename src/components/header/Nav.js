@@ -18,8 +18,9 @@ const Nav = () => {
             </div>
           </div>
           <div className="grow shrink flex justify-end text-white">
+            <span className="border-r-[1px] mr-2"></span>
             <a
-              className="bg-[#007559] no-underline text-white pl-2 pr-2"
+              className="bg-[#007559] no-underline  text-white pl-4 pr-4"
               href="/"
             >
               Appointment
