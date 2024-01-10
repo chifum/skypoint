@@ -13,14 +13,14 @@ const Nav = () => {
               <p className="m-0 md:p-1">0452 370 284</p>
             </div>
             <div className="flex items-center ">
-              <FaEnvelope />
+              <FaEnvelope className="pr-2 text-[21px]" />
               <p className="m-0 md:p-1">info@skypointsupportservice.com.au</p>
             </div>
           </div>
           <div className="grow shrink flex justify-end text-white">
             <span className="border-r-[1px] mr-2"></span>
             <a
-              className="bg-[#007559] no-underline  text-white pl-4 pr-4"
+              className="bg-[#007559] no-underline  text-white pl-4 pr-4 flex items-center justify-center"
               href="/"
             >
               Appointment
