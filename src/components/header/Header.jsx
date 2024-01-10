@@ -17,13 +17,13 @@ const Header = ({ p, h3, className, to, to2, name }) => {
             <div className="flex justify-center items-center">
               <NavLink
                 to={to}
-                className="iconColor OvalBg w-[113px] h-[30px] text-center rounded-lg flex flex-row  items-center justify-evenly mt-5 no-underline"
+                className="iconColor OvalBg w-[113px] h-[30px] text-center rounded-[3rem] pr-[25px] flex flex-row  items-center justify-evenly mt-5 no-underline"
               >
                 <IoMdHome /> Home
               </NavLink>
               <NavLink
                 to2={to2}
-                className="iconColor2 textColor w-[113px] h-[30px] text-center rounded-lg flex flex-row  items-center justify-evenly mt-5 no-underline"
+                className="iconColor2 textColor w-[113px] h-[30px] text-center rounded-[3rem] ml-[-20px] flex flex-row  items-center justify-evenly mt-5 no-underline"
               >
                 {name}
               </NavLink>
