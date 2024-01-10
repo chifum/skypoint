@@ -4,12 +4,12 @@ import image16 from "../../assets/img/image16.png";
 const FrequentAsk = () => {
   return (
     <div className="flex flex-col md:flex-row flex-wrap mt-5 grow shrink">
-      <div className="basis-2/4 flex justify-start bg-primary">
+      <div className="basis-2/4 flex justify-start bg-primary border-3">
         <img src={image16} alt="" className=" h-fit" />
       </div>
-      <div className="bg-secondary basis-2/4">
-        <div class="flex  justify-center  from-purple-100 via-red-300 to-indigo-500 bg-gradient-to-br">
-          <div class="w-full max-w-lg px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
+      <div className="bg-secondary basis-2/4 flex justify-end border-3">
+        <div class="flex  justify-center from-purple-100 via-red-300 to-indigo-500 bg-gradient-to-br">
+          <div class="w-full max-w-lg px-10 py-8 mx-auto bg-white shadow-xl">
             <details class="w-full bg-white border border-blue-500 cursor-pointer mb-3">
               <summary class="w-full bg-white text-dark flex justify-between px-4 py-3  after:content-['+']">
                 Morbi at sagittis velit
