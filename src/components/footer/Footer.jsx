@@ -17,7 +17,7 @@ import { NavLink, Outlet } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="Footer">
-      <div className="container flex flex-wrap flex-col md:flex-row textColor">
+      <div className="container flex flex-wrap flex-col md:flex-row textColor pt-[4rem]">
         <div className="grow shrink basis-1/3 w-full ">
           <div className="flex items-baseline">
             <p className="text-3xl footerVerticalBg">|</p>

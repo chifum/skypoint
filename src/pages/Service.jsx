@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
+import ServiceCardMain from "../components/servicesComponent/ServiceCardMain";
 
 const Service = () => {
   return (
@@ -13,6 +14,8 @@ const Service = () => {
         to2={"service"}
         name={"Service"}
       />
+
+      <ServiceCardMain />
       <Footer />
     </div>
   );
