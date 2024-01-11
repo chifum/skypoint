@@ -16,8 +16,8 @@ const Home = () => {
             <h3 className="font-semibold textColor font-sans md:text-6xl text-center text-3xl">
               Best Support Cordination
             </h3>
-            <button className="outline outline-offset-2 outlineButtonColor textColor w-28 text-center rounded-lg m-auto flex flex-row items-baseline justify-evenly mt-5">
-              Refer to Us <FaArrowCircleRight />
+            <button className="outline outline-offset-2 outlineButtonColor textColor w-[8rem] text-center rounded-[3rem] m-auto pl-2  flex flex-row items-center justify-between  mt-5">
+              Refer to Us <FaArrowCircleRight className=" text-[22px]" />
             </button>
           </div>
         </div>
