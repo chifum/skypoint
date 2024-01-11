@@ -219,7 +219,7 @@ const serviceCardMain = () => {
           </div>
         </div>
       </div>
-      <div className=" absolute left-[50%] top-[100%] translate-x-[-50%] mt-[3rem]">
+      <div className="absolute left-[50%] md:top-[102%] top-[101%]  translate-x-[-50%] mt-[3rem]">
         <img src={btnLogo} alt="" className="h-[180px]" />
       </div>
     </div>

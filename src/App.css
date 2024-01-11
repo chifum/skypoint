@@ -49,6 +49,10 @@
   --whatIsNdis2: rgba(118, 178, 150, 1);
   --ndisBlackText: rgba(18, 18, 18, 1);
   --timeLineBg: rgba(134, 203, 171, 1);
+  --AccordionBg: rgba(0, 117, 89, 1);
+  --openAccordionBg: rgba(78, 226, 159, 1);
+  --openAccordionBg2: rgba(255, 255, 255, 1);
+  
 }
 
 .bgColor {
@@ -111,7 +115,7 @@ details summary::-webkit-details-marker {
 }
 
 details[open] summary {
-  background: blue;
+  background: var(--openAccordionBg);
   color: white;
 }
 
@@ -153,4 +157,13 @@ details[open] summary p {
     opacity: 1;
     height: auto;
   }
+}
+.AccordionBg{
+  background: var(--AccordionBg);
+}
+.openAccordionBg {
+  background: var(--openAccordionBg);
+}
+.openAccordionBg2{
+  background: var(--openAccordionBg2);
 }

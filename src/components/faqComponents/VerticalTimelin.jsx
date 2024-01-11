@@ -21,6 +21,7 @@ const VerticalTimelin = () => {
             </div>
           </div>
         </div>
+        
         <div className="relative">
           <div className="md:flex items-center md:space-x-4 mb-3">
             <div className="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
