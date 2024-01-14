@@ -1,6 +1,6 @@
 import React from "react";
 import image16 from "../../assets/img/image16.png";
-import Accordion from "./Accordion";
+import Accordion2 from "./Accordion2";
 
 const FrequentAsk = () => {
   return (
@@ -9,58 +9,15 @@ const FrequentAsk = () => {
         <img src={image16} alt="" className="w-fit h-fit" />
       </div>
       <div className="basis-3/5">
-      <p>Need Help</p>
-      <h5>Frequently Asked Question</h5>
-        <Accordion />
+        <p className="whatIsNdis2">Need Help</p>
+        <h5 className="whatIsNdis1">
+          <span className="whatIsNdis2">|</span> Frequently Asked{" "}
+          <span className="whatIsNdis2">Question</span>
+        </h5>
+        <Accordion2 />
       </div>
     </div>
   );
 };
 
 export default FrequentAsk;
-
-// items-center
-// min-h-screen
-
-// <div class="flex  justify-center from-purple-100 via-red-300 to-indigo-500 bg-gradient-to-br">
-//           <div class="w-full max-w-lg px-10 py-8 mx-auto bg-white shadow-xl">
-//             <details class="w-full bg-white border border-blue-500 cursor-pointer mb-3">
-//               <summary class="w-full bg-white text-dark flex justify-between px-4 py-3  after:content-['+']">
-//                 Morbi at sagittis velit
-//               </summary>
-//               <p class="px-4 py-3">
-//                 Nunc posuere dapibus urna quis cursus. Mauris malesuada
-//                 tincidunt diam vel placerat mi tincidunt ac. Nullam augue urna,
-//                 venenatis ut blandit eget, auctor vel eros. In ut dolor ante
-//               </p>
-//             </details>
-
-//             <details class="w-full bg-white border border-blue-500 cursor-pointer mb-3">
-//               <summary class="w-full bg-white text-dark flex justify-between px-4 py-3 after:content-['+']">
-//                 Etiam ut lacus in enim sagittis posuere at a elit
-//               </summary>
-//               <p class="px-4 py-3">
-//                 Fusce sed laoreet ex. Aenean justo nisl, eleifend eget eleifend
-//                 sit amet, imperdiet id libero. Suspendisse et tempus leo, et
-//                 lacinia arcu. Etiam at ante in est efficitur fringilla eleifend
-//                 nec tellus. Integer sed auctor lectus, nec ullamcorper arcu.
-//                 Nullam nec eros elit. Nulla tempor massa ut quam elementum
-//                 dignissim. Sed eu pulvinar est, vel vehicula dolor. Pellentesque
-//                 in ante vel elit facilisis consectetur eu id felis
-//               </p>
-//             </details>
-
-//             <details class="w-full bg-white border border-blue-500 cursor-pointer mb-3">
-//               <summary class="w-full bg-white text-dark flex justify-between px-4 py-3  after:content-['+']">
-//                 Nam auctor fringilla magna id porta
-//               </summary>
-//               <p class="px-4 py-3">
-//                 Etiam maximus vitae eros eu vestibulum. Donec posuere, magna non
-//                 tincidunt dignissim, magna tortor mollis augue, at maximus ante
-//                 lacus vel tellus. Vestibulum vestibulum consectetur tortor id
-//                 sagittis. Suspendisse nisi ipsum, pretium a lorem at, laoreet
-//                 condimentum arcu
-//               </p>
-//             </details>
-//           </div>
-//         </div>
