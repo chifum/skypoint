@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="bg-[#edeeef] max-w-full">
+    <div className="bg-[#edeeef] max-w-full mb-[3rem]">
       <h6 className="text-center p-2 m-2 weLoveNdis">We Love NDIS</h6>
       <h3 className="text-center weLoveNdis p-2 m-2">Services We Offer</h3>
       <div className="container">

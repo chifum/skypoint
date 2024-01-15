@@ -1,25 +1,35 @@
 import React from "react";
 
-
-const Accordion = () => {
+const Accordion2 = () => {
   return (
-    <div className=" mt-3">
+    <div className="">
       <div class="flex  justify-center from-purple-100 via-red-300 to-indigo-500 bg-gradient-to-br">
         <div class="w-full faqContainerbg">
           <details class="w-full openAccordionBg2 border border-blue-500 rounded cursor-pointer mb-3">
             <summary class="w-full AccordionBg textColor flex justify-between px-4 py-3  after:content-['+'] rounded">
-            NDIS versus NDIA
+              What is Skypoint Solution Service ?
             </summary>
             <p class="px-4 py-3">
-              Nunc posuere dapibus urna quis cursus. Mauris malesuada tincidunt
-              diam vel placerat mi tincidunt ac. Nullam augue urna, venenatis ut
-              blandit eget, auctor vel eros. In ut dolor ante
+              Skypoint Support Service is a National Disability Insurance Scheme
+              (NDIS) service provider. We offer a range of support services for
+              people with disabilities to help them achieve their goals and live
+              a fulfilling life. We offer
             </p>
+            <ul className="list-disc ml-5">
+              <li>Specialist Support Coordination</li>
+              <li>Support Coordination</li>
+              <li>In-home Support</li>
+              <li>Therapeutic Supports</li>
+              <li>Life Skills Development Program</li>
+              <li>Community Participation Program</li>
+              <li>Group Activities</li>
+              <li>Assist Travel / Transport</li>
+            </ul>
           </details>
 
           <details class="w-full openAccordionBg2 border border-blue-500 rounded cursor-pointer mb-3">
-          <summary class="w-full AccordionBg textColor flex justify-between px-4 py-3  after:content-['+'] rounded">
-            Are all you support workers trained and insured ?
+            <summary class="w-full AccordionBg textColor flex justify-between px-4 py-3  after:content-['+'] rounded">
+              How will I receive the plan ?
             </summary>
             <p class="px-4 py-3">
               Fusce sed laoreet ex. Aenean justo nisl, eleifend eget eleifend
@@ -34,7 +44,7 @@ const Accordion = () => {
 
           <details class="w-full openAccordionBg2 border border-blue-500 rounded cursor-pointer mb-3">
             <summary class="w-full AccordionBg textColor flex justify-between px-4 py-3  after:content-['+'] rounded">
-            Does the NDIS affect the DSP ?
+              How do I know if I am eligible for NDIS Support services ?
             </summary>
             <p class="px-4 py-3">
               Etiam maximus vitae eros eu vestibulum. Donec posuere, magna non
@@ -46,7 +56,8 @@ const Accordion = () => {
           </details>
           <details class="w-full openAccordionBg2 border border-blue-500 rounded cursor-pointer mb-3">
             <summary class="w-full AccordionBg textColor flex justify-between px-4 py-3  after:content-['+'] rounded">
-            Who is the NDIA?
+              How can I access Skypoint Support Service ' NDIS Support services
+              ?
             </summary>
             <p class="px-4 py-3">
               Etiam maximus vitae eros eu vestibulum. Donec posuere, magna non
@@ -58,7 +69,7 @@ const Accordion = () => {
           </details>
           <details class="w-full openAccordionBg2 border border-blue-500 rounded cursor-pointer mb-3">
             <summary class="w-full AccordionBg textColor flex justify-between px-4 py-3  after:content-['+'] rounded">
-            Can I pick the services I want?
+              Who is a Carer ?
             </summary>
             <p class="px-4 py-3">
               Etiam maximus vitae eros eu vestibulum. Donec posuere, magna non
@@ -74,6 +85,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
-
-// px-10 py-8 mx-auto bg-white 2nd Div
+export default Accordion2;
