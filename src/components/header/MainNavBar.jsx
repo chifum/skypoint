@@ -11,6 +11,7 @@ const Navbar = () => {
   };
 
   return (
+    <div>
     <div className="bg-[#edeeef] max-w-full">
       <div className="container">
         <nav className="flex justify-between items-center text-white py-2 px-2 md:px-8">
@@ -83,7 +84,9 @@ const Navbar = () => {
           </button>
         </nav>
       </div>
-      <main>
+      
+    </div>
+    <main>
         <Outlet />
       </main>
     </div>

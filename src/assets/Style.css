@@ -100,3 +100,25 @@
   background-size: cover;
   background-position: center;
 }
+.fir{
+  box-shadow: 10px 7px 4.400000095367432px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.whatsApp{
+  color: rgba(37, 211, 102, 1);
+}
+.telegram{
+  color: rgba(0, 136, 204, 1);
+}
+.linkedIn{
+  color: rgba(40, 103, 178, 1);
+}
+.twitter{
+  color: rgba(29, 161, 242, 1);
+}
+.facebook{
+  color: rgba(24, 119, 242, 1);
+}
+.instagram{
+  color: rgba(240, 0, 115, 1);
+}
