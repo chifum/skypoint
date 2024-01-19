@@ -52,7 +52,9 @@
   --AccordionBg: rgba(0, 117, 89, 1);
   --openAccordionBg: rgba(78, 226, 159, 1);
   --openAccordionBg2: rgba(255, 255, 255, 1);
-  
+  /* --Share: linear-gradient(251.04deg, #878787 -48.31%, rgba(135, 135, 135, 0.645764) 176.62%, rgba(135, 135, 135, 0.408137) 341.37%, rgba(135, 135, 135, 0) 453.78%); */
+  --colorRadius: rgba(132, 200, 169, 1);
+
 }
 
 .bgColor {
@@ -158,12 +160,19 @@ details[open] summary p {
     height: auto;
   }
 }
-.AccordionBg{
+.AccordionBg {
   background: var(--AccordionBg);
 }
 .openAccordionBg {
   background: var(--openAccordionBg);
 }
-.openAccordionBg2{
+.openAccordionBg2 {
   background: var(--openAccordionBg2);
+}
+.share {
+  color: 
+    #878787,
+}
+.colorRadius{
+  background: var(--colorRadius);
 }
