@@ -54,6 +54,7 @@
   --openAccordionBg2: rgba(255, 255, 255, 1);
   /* --Share: linear-gradient(251.04deg, #878787 -48.31%, rgba(135, 135, 135, 0.645764) 176.62%, rgba(135, 135, 135, 0.408137) 341.37%, rgba(135, 135, 135, 0) 453.78%); */
   --colorRadius: rgba(132, 200, 169, 1);
+  --clipPath: linear-gradient(220.31deg, #007559 -34.94%, rgba(0, 117, 89, 0.414046) 100.05%, rgba(0, 117, 89, 0) 144.29%);
 
 }
 
@@ -176,3 +177,16 @@ details[open] summary p {
 .colorRadius{
   background: var(--colorRadius);
 }
+.borderRadius{
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+/* .clipPath{
+  background: var(--clipPath);
+} */
+/* .try{
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  background: url("./assets/img/Ellipse.png");
+  background-size: cover cover;
+  background-repeat: no-repeat;
+} */
