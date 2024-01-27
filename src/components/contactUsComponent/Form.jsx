@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -25,8 +27,8 @@ const Form = () => {
     console.log('Form submitted:', formData);
     // Reset form data
     setFormData({
-      firstName: '',
-      lastName: '',
+      fullName: '',
+      mobile: '',
       email: '',
       message: '',
     });
@@ -34,7 +36,7 @@ const Form = () => {
     const formEle = document.querySelector("form");
     const formDatab = new FormData(formEle);
     fetch(
-      "https://script.google.com/macros/s/AKfycbxVOy88J2ztZV6NY4TC4K9phlngX8_hoOszy_EU8rUDEga_Rp0kZDI7FNExrJifmZz8/exec",
+      "https://script.google.com/macros/s/AKfycbxuoGPCGYwaug5HrKHuIinUVMUdhSiIk61NTeKnJN3NQjv8CAs9AfE1BRKe4m2i3eDVgg/exec",
       {
         method: "POST",
         body: formDatab
@@ -140,7 +142,7 @@ const Form = () => {
           type="submit"
           className="rounded-md px-3 py-2 text-sm font-semibold text-white shadow-sm bg-[#007559] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
-          Send
+          Send <ToastContainer />
         </button>
       </div>
     </form>
@@ -148,5 +150,4 @@ const Form = () => {
 };
 
 export default Form;
-// git config --global user.email "you@example.com"
-// git config --global user.name "Your Name"
+

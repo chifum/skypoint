@@ -55,6 +55,7 @@
   /* --Share: linear-gradient(251.04deg, #878787 -48.31%, rgba(135, 135, 135, 0.645764) 176.62%, rgba(135, 135, 135, 0.408137) 341.37%, rgba(135, 135, 135, 0) 453.78%); */
   --colorRadius: rgba(132, 200, 169, 1);
   --clipPath: linear-gradient(220.31deg, #007559 -34.94%, rgba(0, 117, 89, 0.414046) 100.05%, rgba(0, 117, 89, 0) 144.29%);
+  --Green: linear-gradient(107.19deg, #007559 10.23%, rgba(0, 117, 89, 0.752289) 41.3%, rgba(0, 117, 89, 0.247191) 95.02%, rgba(0, 117, 89, 0) 122.6%, #76B296 122.6%);
 
 }
 
@@ -180,6 +181,9 @@ details[open] summary p {
 .borderRadius{
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
+}
+.Green {
+  background: var(--Green);
 }
 /* .clipPath{
   background: var(--clipPath);
