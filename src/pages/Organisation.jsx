@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
+import MainContainer from "../components/ourOrganisationComponent/MainContainer";
 
 const Organisation = () => {
   return (
@@ -13,6 +14,7 @@ const Organisation = () => {
         to2={"organisation"}
         name={"About Us"}
       />
+      <MainContainer />
       <Footer />
     </div>
   );

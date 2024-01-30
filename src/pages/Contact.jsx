@@ -14,7 +14,6 @@ const Contact = () => {
         to2={"contact"}
         name={"Contact Us"}
       />
-      <br></br>
       <ContactUsContainer />
       <Footer />
     </div>
