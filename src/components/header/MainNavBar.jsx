@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Outlet, NavLink } from "react-router-dom";
 
-import logo from "../../assets/img/logo.png";
+import LogoPNG from "../../assets/img/LogoPNG.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State for mobile menu toggle
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container">
         <nav className="flex justify-between items-center text-white py-2 px-2 md:px-8">
           <a href="/" className="text-xl font-bold">
-            <img className="w-20 h-10" src={logo} alt="" />
+            <img className="w-20 h-10" src={LogoPNG} alt="" />
           </a>
           <ul
             className={
