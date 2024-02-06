@@ -4,8 +4,8 @@ import Group6 from "../../assets/img/Group6.png"
 
 const Green = () => {
   return (
-    <div className="container">
-      <img className="" src={Group6} alt="" />
+    <div className="">
+      {/* <img className="" src={Group6} alt="" /> */}
       <div className=" flex justify-center items-center Green mt-5 md:h-[580px] h-[620px]">
       <div className="flex md:flex-row flex-col justify-between bg-white w-11/12 md:h-[418px] h-[580px] rounded-md p-4">
         <div className="image18 basis-2/4 m-2"></div>

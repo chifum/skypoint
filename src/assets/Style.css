@@ -168,4 +168,27 @@
   height: 30px;
   /* height: 300px; */
 }
+.Frame56{
+  background: url("../assets/img/Frame56.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 400px;
+  /* height: 300px; */
+}
+.Frame58{
+  background: url("../assets/img/Frame58.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* height: 623px; */
+  height: 400px;
+  /* height: 300px; */
+}
+.Frame60{
+  background: url("../assets/img/Frame60.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* height: 623px; */
+  height: 400px;
+  /* height: 300px; */
+}
 

@@ -5,7 +5,7 @@ import MainContainer from "../components/ourOrganisationComponent/MainContainer"
 
 const Organisation = () => {
   return (
-    <div>
+    <div className="bg-[#edeeef]">
       <Header
         p={"Skypoint Support Services"}
         h3={"About Us"}
