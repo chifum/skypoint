@@ -1,12 +1,13 @@
 import React from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
 import Card from "../components/homeComponent/Card";
-// import Card2 from "../components/homeComponent/Card2";
+import Card2 from "../components/homeComponent/Card2";
 import Footer from "../components/footer/Footer";
+import Card3 from "../components/homeComponent/Card3";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#edeeef]">
       <div className="backgroundImage">
         <div className="flex flex-row items-center h-[717px] justify-center">
           <div className="h-80 flex flex-col flex-wrap w-auto">
@@ -23,7 +24,8 @@ const Home = () => {
         </div>
       </div>
       <Card />
-
+      <Card2 />
+      <Card3 />
       <Footer />
     </div>
   );
