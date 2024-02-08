@@ -77,8 +77,9 @@
   background: url("../assets/img/Rectangle4.png") no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
-  width: 100%;
+  height: 400px;
+  /* height: 100vh; */
+  /* width: 100%; */
 }
 .backgroundHeaderImage {
   background: url("../assets/img/organisationImage.png") no-repeat;
@@ -190,5 +191,30 @@
   /* height: 623px; */
   height: 400px;
   /* height: 300px; */
+}
+.pill {
+  /* width: 200px; */
+  height: 400px;
+  background: #FFFFFF;
+  border-radius: 10% 25% 25% 10%;
+  /* border-radius: 40px 999em 999em 40px; */
+}
+.image13{
+    background: url("../assets/img/image13.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* height: 623px; */
+    height: 400px;
+    /* height: 300px; */
+}
+.Frame10{
+  background: url("../assets/img/Frame10.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  height: 170px;
+  /* height: 300px; */
+  border: 3px solid #84C8A9;
+  border-radius: 10px;
 }
 
