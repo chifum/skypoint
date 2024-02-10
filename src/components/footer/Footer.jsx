@@ -13,6 +13,7 @@ import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 import downloadRemovebgPreview from "../../assets/img/downloadRemovebgPreview.png";
 import image15 from "../../assets/img/image15.png";
 import { NavLink, Outlet } from "react-router-dom";
+import ScrollToTop from "../utility/ScrollToTop";
 
 const Footer = () => {
   return (
@@ -111,6 +112,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <ScrollToTop />
         <main>
           <Outlet />
         </main>

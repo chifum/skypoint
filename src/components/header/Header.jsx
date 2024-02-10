@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { IoMdHome } from "react-icons/io";
 
-const Header = ({ p, h3, className, to, to2, name }) => {
+const Header = ({ p, h3, className, to, to2, name, to3, name1 }) => {
   return (
     <div>
       <div className={className}>
@@ -27,6 +27,12 @@ const Header = ({ p, h3, className, to, to2, name }) => {
               >
                 {name}
               </NavLink>
+              {/* <NavLink
+                to3={to3}
+                className="iconColor2 textColor w-[113px] h-[30px] text-center rounded-[3rem] ml-[-20px] flex flex-row  items-center justify-evenly mt-5 no-underline"
+              >
+                {name1}
+              </NavLink> */}
             </div>
           </div>
         </div>
