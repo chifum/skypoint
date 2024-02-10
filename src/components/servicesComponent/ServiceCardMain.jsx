@@ -15,7 +15,7 @@ const serviceCardMain = () => {
       <div className="container mt-[5rem] mb-[12rem]">
         <div className="w-full overflow-hidden mb-6 6flex justify-center items-center">
           <div className="grid md:grid-cols-3 gap-x-8 gap-y-6 sm:grid-cols-1">
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage1}
                 alt=""
@@ -37,7 +37,7 @@ const serviceCardMain = () => {
                 Read More
               </button>
             </div>
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage2}
                 alt=""
@@ -58,7 +58,7 @@ const serviceCardMain = () => {
                 Read More
               </button>
             </div>
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage1}
                 alt=""
@@ -84,7 +84,7 @@ const serviceCardMain = () => {
 
         <div className="w-full overflow-hidden mb-6 flex justify-center items-center">
           <div className="grid md:grid-cols-3 gap-x-8 gap-y-6 sm:grid-cols-1">
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage4}
                 alt=""
@@ -105,7 +105,7 @@ const serviceCardMain = () => {
                 Read More
               </button>
             </div>
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage5}
                 alt=""
@@ -127,7 +127,7 @@ const serviceCardMain = () => {
                 Read More
               </button>
             </div>
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage6}
                 alt=""
@@ -153,7 +153,7 @@ const serviceCardMain = () => {
 
         <div className="w-full overflow-hidden mb-6 flex justify-center items-center">
           <div className="grid md:grid-cols-3 gap-x-8 gap-y-6 sm:grid-cols-1">
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage7}
                 alt=""
@@ -175,7 +175,7 @@ const serviceCardMain = () => {
                 Read More
               </button>
             </div>
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage8}
                 alt=""
@@ -196,7 +196,7 @@ const serviceCardMain = () => {
                 Read More
               </button>
             </div>
-            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%]">
+            <div className="rounded-[1rem] border-[1px] border-[#007559] h-[579px] w-[100%] transition duration-300 ease-in-out hover:scale-110">
               <img
                 src={serviceImage9}
                 alt=""

@@ -8,4 +8,17 @@
       ;
       /* ... */
     }
+    /* ScrollToTop.css */
+.scroll-to-top {
+  @apply fixed bottom-8 right-8 z-50;
+  @apply opacity-0;  /* Initially hidden */
+  @apply transition-all duration-300;
+  @apply bg-white hover:bg-gray-100 text-gray-700 font-bold py-2 px-3 rounded-full focus:outline-none;
+}
+
+.scroll-to-top.visible {
+  @apply opacity-100;  /* Shown when scrolled */
+}
+
+    
   }
