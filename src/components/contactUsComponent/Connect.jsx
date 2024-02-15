@@ -66,7 +66,7 @@ const Connect = () => {
               </div>{" "}
               <div className="flex flex-wrap items-center OvalBg w-full rounded-r-lg">
                 <span className="OvalBgText ml-2 text-lg font-medium">
-                  10 - 12 Anzac Avenue, Hillcrest QLD 4118
+                  7/45 commercial drive, Shailer Park
                 </span>
               </div>
             </div>

@@ -39,7 +39,7 @@ const Footer = () => {
               </div>
               <div className="flex items-baseline">
                 <HiOutlineBuildingOffice2 />
-                <p className="ml-3">10 - 12 Anzac Avenue, Hillcrest QLD 4118</p>
+                <p className="ml-3">7/45 commercial drive, Shailer Park</p>
               </div>
             </div>
           </div>
