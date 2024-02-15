@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="flex items-baseline">
                 <FaEnvelope />
                 <p className="ml-3 text-sm overflow-auto">
-                  info@skypointsupportservice.com.au
+                  info@skypointsupportservices.com.au
                 </p>
               </div>
               <div className="flex items-baseline">

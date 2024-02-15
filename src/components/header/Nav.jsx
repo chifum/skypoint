@@ -14,7 +14,7 @@ const Nav = () => {
             </div>
             <div className="flex items-center ">
               <FaEnvelope className="pr-2 text-[21px]" />
-              <p className="m-0 md:p-1">info@skypointsupportservice.com.au</p>
+              <p className="m-0 md:p-1">info@skypointsupportservices.com.au</p>
             </div>
           </div>
           <div className="grow shrink flex justify-end text-white md:static absolute md:left-0 left-[50%]">
